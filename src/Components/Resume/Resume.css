@@ -1,0 +1,36 @@
+.resume-container-page {
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+
+  background-color: white;
+  height: fit-content;
+  box-sizing: border-box;
+  display: grid;
+  animation: moveRight 0.5s ease-out;
+}
+
+.resume-title {
+  padding: 35px;
+  justify-self: center;
+}
+
+.resume-parts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 35px;
+  margin-top: -10px;
+}
+
+.resume-border {
+  animation: moveRight 1s ease-out;
+}
+
+.resume-content {
+  padding: 40px;
+  padding-top: 60px;
+}
+
+.resume-content-title {
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+.icon-wrapper {
+  width: "100%";
+  justify-content: "space-evenly";
+  margin-bottom: "20px";
+  margin-top: "20px";
+}
+
+.icon {
+  color: grey;
+  height: 2em;
+  width: 2em;
+  padding: 0.25em;
+  border-radius: 50%;
+}
