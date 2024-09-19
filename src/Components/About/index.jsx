@@ -93,7 +93,7 @@ function About(props) {
                   Gadhnglaj.
                 </ListItem>
                 <ListItem>
-                  At 18, I moved to Kolhapur city and started my Bachelor's of
+                  At 18, I moved to Kolhapur and started my Bachelor of
                   Engineering in Mechanical at KIT's College of Engineering,
                   Kolhapur.
                 </ListItem>
