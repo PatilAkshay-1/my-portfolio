@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a90afebd.css",
-    "main.js": "/my-portfolio/static/js/main.8627acb7.js",
+    "main.css": "/my-portfolio/static/css/main.53472753.css",
+    "main.js": "/my-portfolio/static/js/main.27daa2af.js",
     "static/media/profile_photo.PNG": "/my-portfolio/static/media/profile_photo.11d0cefbe15826842f72.PNG",
     "static/media/lato-latin-400-normal.woff2": "/my-portfolio/static/media/lato-latin-400-normal.be36596da218e1eec01c.woff2",
     "static/media/montserrat-latin-400-normal.woff": "/my-portfolio/static/media/montserrat-latin-400-normal.b48c3d9a8c0a49c1c7b4.woff",
@@ -18,11 +18,11 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/my-portfolio/static/media/montserrat-vietnamese-400-normal.176348415471f3e062e6.woff2",
     "static/media/lato-latin-ext-400-normal.woff": "/my-portfolio/static/media/lato-latin-ext-400-normal.221746f6ba5760746446.woff",
     "index.html": "/my-portfolio/index.html",
-    "main.a90afebd.css.map": "/my-portfolio/static/css/main.a90afebd.css.map",
-    "main.8627acb7.js.map": "/my-portfolio/static/js/main.8627acb7.js.map"
+    "main.53472753.css.map": "/my-portfolio/static/css/main.53472753.css.map",
+    "main.27daa2af.js.map": "/my-portfolio/static/js/main.27daa2af.js.map"
   },
   "entrypoints": [
-    "static/css/main.a90afebd.css",
-    "static/js/main.8627acb7.js"
+    "static/css/main.53472753.css",
+    "static/js/main.27daa2af.js"
   ]
 }
