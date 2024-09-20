@@ -85,7 +85,7 @@ function About(props) {
             <CustomDescription>
               <List marker="disc">
                 <ListItem>
-                  My Father is a teacher and mother homemaker and lived in
+                  My Father is a teacher and mother homemaker and live in
                   Gadhinglaj, Maharashtra, India.
                 </ListItem>
                 <ListItem>

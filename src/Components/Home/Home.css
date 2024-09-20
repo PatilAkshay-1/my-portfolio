@@ -32,9 +32,9 @@
   text-transform: uppercase;
   padding-top: 10px;
   color: grey;
-  font-size: large;
+  font-size: small;
   letter-spacing: 2px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat" !important;
 }
 .mail:hover {
   color: blue;
@@ -65,7 +65,7 @@
 }
 .button {
   color: gray !important;
-  border-color: gray !important;
+  border-color: rgba(128, 128, 128, 0.3) !important;
 }
 .button:hover {
   border-color: blue !important;

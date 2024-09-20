@@ -31,7 +31,7 @@ const Home = ({ children }) => {
               href="mailto:patil.akshay3@outlook.com"
               className="mail link animate"
             >
-              patil.akshay3@outlook.com
+              patil.akshay3@outlook.com 📧
             </a>
             <hr className="border" />
 
@@ -39,8 +39,16 @@ const Home = ({ children }) => {
               <h2 className="about-title">About</h2>
               <span className="about">
                 Hi👋, I'm Akshay. I enjoy building things. I graduated with a BE
-                in Mechanical Engineering from KIT, Kolhapur, and currently work
-                as a Software Engineer at{" "}
+                in Mechanical Engineering from{" "}
+                <a
+                  href="https://www.kitcoek.in/"
+                  target="_blank"
+                  className="link"
+                  rel="noopener noreferrer"
+                >
+                  KIT, Kolhapur
+                </a>
+                , and currently work as a Software Engineer at{" "}
                 <a
                   href="https://slksoftware.com/"
                   target="_blank"

@@ -122,6 +122,15 @@ const CustomLink = styled(Link)(() => ({
   textUnderlineOffset: "3px",
 }));
 
+const CustomLinkDuration = styled(Link)(() => ({
+  textDecorationColor: "grey",
+  textDecorationLine: "underline",
+  textDecorationStyle: "dotted",
+  textDecorationThickness: "1.4px",
+  textUnderlineOffset: "3px",
+  color: "inherit",
+}));
+
 const Resume = () => {
   const sectionRefs = {
     Objectives: useRef(null),
@@ -366,7 +375,15 @@ const Resume = () => {
             </CustomTitle>
             <CustomDescription>
               <ExpTitle>Bachelor of Engineer - Mechanical</ExpTitle>
-              <Duration>KIT's College of Engineering, Kolhapur, 2020</Duration>
+              <Duration>
+                <CustomLinkDuration
+                  target="_blank"
+                  href="https://www.kitcoek.in/"
+                >
+                  KIT's College of Engineering, Kolhapur
+                </CustomLinkDuration>
+                , 2020
+              </Duration>
             </CustomDescription>
             <CustomDescription>
               <ExpTitle>Higher Secondary School - Science</ExpTitle>

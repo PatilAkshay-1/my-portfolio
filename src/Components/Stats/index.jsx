@@ -61,7 +61,10 @@ function Stats(props) {
           <div className="stats-about-this-site">
             SOME STATS ABOUT THIS SITE
           </div>
-          <div className="stats-updated">Last updated at</div>
+          <div className="stats-updated-container">
+            <div className="stats-updated">Last updated at</div>
+            <div className="stats-updated-value">Sep 20th, 2024</div>
+          </div>
           <hr className="stats-border-custom" />
         </div>
       </div>

@@ -61,3 +61,7 @@
 .custom-link:nth-child(6) {
   animation-delay: 1s;
 }
+.active {
+  color: blue;
+  border-bottom: 0.2px solid blue;
+}
