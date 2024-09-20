@@ -1,6 +1,6 @@
 import { AppBar, Box, Stack } from "@mui/material";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/lato"; // Defaults to weight 400
@@ -24,26 +24,48 @@ export default function Navbar() {
       >
         <Stack
           direction={"row"}
-          sx={{ width: "60%", justifyContent: "space-evenly", mx: "auto" }}
+          sx={{
+            width: "60%",
+            justifyContent: "space-evenly",
+            mx: "auto",
+            borderBottom: "0.2px solid transparent",
+            transition: "borderBottom 0.2s ease-in-out"
+          }}
         >
           <Link className="custom-link-name" to={"/"}>
             AKSHAY PATIL
           </Link>
-          <Link className="custom-link" to={"/about"}>
+          <NavLink
+            activeClassName="active"
+            className="custom-link"
+            to={"/about"}
+          >
             About
-          </Link>
-          <Link className="custom-link" to={"/resume"}>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="custom-link"
+            to={"/resume"}
+          >
             Resume
-          </Link>
+          </NavLink>
           {/* <Link className="custom-link" to={"/projects"}>
             Projects
           </Link> */}
-          <Link className="custom-link" to={"/stats"}>
+          <NavLink
+            activeClassName="active"
+            className="custom-link"
+            to={"/stats"}
+          >
             Stats
-          </Link>
-          <Link className="custom-link" to={"/contact"}>
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="custom-link"
+            to={"/contact"}
+          >
             Contact
-          </Link>
+          </NavLink>
         </Stack>
       </AppBar>
     </Box>

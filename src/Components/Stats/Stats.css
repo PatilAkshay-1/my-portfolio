@@ -98,9 +98,14 @@
   letter-spacing: 3px;
   padding-top: 30px;
 }
-.stats-updated {
-  margin-top: 40px;
+.stats-updated-container {
+  display: flex;
+  align-items: center;
   font-size: 14px;
+  margin-top: 30px;
   margin-left: 40px;
   padding-bottom: 10px;
+}
+.stats-updated {
+  margin-right: 273px;
 }
