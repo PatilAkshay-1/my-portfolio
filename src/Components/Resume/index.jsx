@@ -96,7 +96,7 @@ const CustomDescription = styled(Typography)(
     margin: "20px",
     paddingTop: paddingTop || 0,
     paddingBottom: paddingBottom || 0,
-  })
+  }),
 );
 
 const ExpTitle = styled(Typography)(() => ({
@@ -162,6 +162,15 @@ const Resume = () => {
       skill: "Javascript",
       rating: 3.5 / 5,
     },
+    {
+      skill: "HTML",
+      rating: 4 / 5,
+    },
+    {
+      skill: "CSS",
+      rating: 3.5 / 5,
+    },
+
     {
       skill: "Github",
       rating: 3 / 5,
@@ -313,10 +322,33 @@ const Resume = () => {
             <CustomTitle ref={sectionRefs.Experience}>EXPERIENCE</CustomTitle>
             <CustomDescription sx={{ paddingTop: 2, paddingBottom: 2 }}>
               <ExpTitle>
-                SLK - SOFTWARE - ENGINEER | ASSOCIATE - SOFTWARE ENGINEER |
-                SOFTWARE - TRAINEE
+                SONNYS DIRECT INDIA PVT. LTD. | REACT WEB DEVELOPER |
               </ExpTitle>
-              <Duration>DEC 2020 - TILL NOW</Duration>
+              <Duration>AUG 2025 - PRESENT</Duration>
+              <List marker="disc">
+                <ListItem>
+                  Developing dynamic and responsive web applications using
+                  React.js, JavaScript, CSS, and MUI.
+                </ListItem>
+                <ListItem>
+                  Contributing to web applications and modules supporting
+                  business operations.
+                </ListItem>
+                <ListItem>
+                  Worked on Single Sign-On (SSO), Short URL, and CRM
+                  applications.
+                </ListItem>
+                <ListItem>
+                  Collaborating with the development team to build, enhance, and
+                  maintain web applications.
+                </ListItem>
+              </List>
+              <br />
+              <ExpTitle>
+                SLK SOFTWARE | SOFTWARE TRAINEE → ASSOCIATE SOFTWARE ENGINEER →
+                SOFTWARE ENGINEER
+              </ExpTitle>
+              <Duration>DEC 2020 - AUG 2025</Duration>
               <List marker="disc">
                 <ListItem>
                   Developed Web applications using ReactJS, Redux, HTML5, CSS.
@@ -340,11 +372,11 @@ const Resume = () => {
             </CustomTitle>
             <CustomDescription sx={{ paddingTop: 2, paddingBottom: 2 }}>
               <ExpTitle>
-                AZ - 900 : AZURE FUDAMENTALS{" "}
                 <CustomLink
                   target="_blank"
                   href="https://learn.microsoft.com/en-us/users/akshaypatil-3963/credentials/6951e180296b4a9f?ref=https%3A%2F%2Fwww.linkedin.com%2F"
                 >
+                  AZ - 900 : AZURE FUDAMENTALS{" "}
                   <VerifiedIcon
                     sx={{ color: "blue", cursor: "pointer", fontSize: "15px" }}
                   />
@@ -354,11 +386,11 @@ const Resume = () => {
             </CustomDescription>
             <CustomDescription>
               <ExpTitle>
-                UDEMY - THE COMPLETE REACT DEVELOPER COURSE{" "}
                 <CustomLink
                   target="_blank"
                   href="https://www.udemy.com/certificate/UC-267e86cb-aa38-480d-a527-9490725bf6c5/"
                 >
+                  UDEMY - THE COMPLETE REACT DEVELOPER COURSE{" "}
                   <VerifiedIcon
                     sx={{ color: "blue", cursor: "pointer", fontSize: "15px" }}
                   />

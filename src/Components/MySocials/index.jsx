@@ -4,6 +4,7 @@ import XIcon from "@mui/icons-material/X";
 import EmailIcon from "@mui/icons-material/Email";
 import { IconButton, Stack } from "@mui/material";
 import "./MySocials.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const IconSx = {
   "&:hover": {
@@ -20,9 +21,20 @@ function MySocials(props) {
         direction={"row"}
         sx={{
           mx: "auto",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: 20,
         }}
-        className="icon-wrapper !important"
+        className="icon-wrapper"
       >
+        <IconButton
+          href={"https://github.com/PatilAkshay-1"}
+          target="_blank"
+          sx={IconSx}
+        >
+          <GitHubIcon />
+        </IconButton>
         <IconButton
           href={"https://www.linkedin.com/in/akshay-patil-67a89a13b"}
           target="_blank"

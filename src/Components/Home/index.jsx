@@ -1,10 +1,10 @@
-import { Avatar, Button, IconButton, Stack } from "@mui/material";
-import profileImage from "./../../Assets/profile_photo.PNG";
+import { Avatar, IconButton, Stack } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
 import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import profileImage from "./../../Assets/Akshay.jpg";
 import "./Home.css";
-import { Link } from "react-router-dom";
 
 const IconSx = {
   "&:hover": {
@@ -21,17 +21,17 @@ const Home = ({ children }) => {
         <div className="container">
           <div className="row">
             <Avatar
-              alt="Akshay Patil"
+              alt="Patil Akshay"
               src={profileImage}
               sx={{ height: "180px", width: "180px" }}
               className="animate"
             />
-            <span className="namePlate animate">AKSHAY PATIL</span>
+            <span className="namePlate animate">PATIL AKSHAY</span>
             <a
               href="mailto:patil.akshay3@outlook.com"
               className="mail link animate"
             >
-              patil.akshay3@outlook.com 📧
+              akspatil303@gmail.com 📧
             </a>
             <hr className="border" />
 
@@ -48,26 +48,18 @@ const Home = ({ children }) => {
                 >
                   KIT, Kolhapur
                 </a>
-                , and currently work as a Software Engineer at{" "}
+                , and currently work as a React Web Developer at{" "}
                 <a
-                  href="https://slksoftware.com/"
+                  href="https://www.linkedin.com/company/sonny's-enterprises/jobs"
                   target="_blank"
                   className="link"
                   rel="noopener noreferrer"
                 >
-                  SLK Software Pvt. Ltd
+                  Sonny's Direct India Pvt. Ltd.
                 </a>
               </span>
               <br />
-              <div className="button-container">
-                <Link to={"/about"}>
-                  <Button variant="outlined" size="large" className="button">
-                    KNOW MORE
-                  </Button>
-                </Link>
-              </div>
             </div>
-            <hr className="border" />
 
             <Stack
               direction={"row"}
@@ -80,6 +72,13 @@ const Home = ({ children }) => {
               }}
               className="animate-slide"
             >
+               <IconButton
+                href={"https://github.com/PatilAkshay-1"}
+                target="_blank"
+                sx={IconSx}
+              >
+                <GitHubIcon />
+              </IconButton>
               <IconButton
                 href={"https://www.linkedin.com/in/akshay-patil-67a89a13b"}
                 target="_blank"

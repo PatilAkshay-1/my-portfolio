@@ -10,9 +10,10 @@
 .stats-container {
   margin-left: 20px;
   width: 850px;
-  height: 500px;
+  height: auto;
   border: 1px;
   background-color: white;
+  border-radius: 10px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.12);
   font-family: "Montserrat" !important;
@@ -67,8 +68,9 @@
   letter-spacing: 3px;
 }
 .stats-age-container {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95%;
   font-size: 14px;
   margin-top: 40px;
   margin-left: 40px;
@@ -76,7 +78,12 @@
 }
 
 .stats-age {
-  margin-right: 300px;
+  text-align: left;
+}
+.stats-age-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .stats-city-container {
@@ -89,7 +96,12 @@
 }
 
 .stats-city {
-  margin-right: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+}
+.stats-city-value {
+  text-align: left;
 }
 
 .stats-about-this-site {
@@ -100,12 +112,18 @@
 }
 .stats-updated-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 15px;
   font-size: 14px;
   margin-top: 30px;
   margin-left: 40px;
   padding-bottom: 10px;
 }
+.stats-updated-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
 .stats-updated {
-  margin-right: 273px;
+  align-items: left;
 }
