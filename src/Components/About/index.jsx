@@ -58,35 +58,48 @@ function About(props) {
               <p>
                 With a background in Mechanical Engineering and a passion for
                 technology, I transitioned into software development and
-                currently work as a Software Engineer at SLK Software Pvt. Ltd.
-                I specialize in building dynamic and responsive web applications
-                using React.js, JavaScript, and CSS, with a focus on creating
-                seamless user experiences. I also enjoy working with Material-UI
-                (MUI) components to craft intuitive and visually appealing
+                currently work as a React Web Developer at Sonny's Direct India
+                Pvt. Ltd. I specialize in building dynamic and responsive web
+                applications using React.js, JavaScript, and CSS, with a focus
+                on creating seamless user experiences. I also enjoy working with
+                Material-UI (MUI) to build intuitive and visually appealing
                 interfaces.
               </p>
-              Beyond coding, I've earned the AZ-900 Azure certification, which
-              reflects my interest in cloud computing and scalable web
-              solutions. My journey from engineering to software development has
-              shaped me into a problem-solver with a unique perspective, and I'm
-              excited to keep growing and learning in this ever-evolving field.
+              <p>
+                Beyond coding, I've earned the AZ-900 Azure certification, which
+                reflects my interest in cloud computing and scalable web
+                solutions. My journey from engineering to software development
+                has shaped me into a problem-solver with a unique perspective,
+                and I'm excited to keep growing and learning in this
+                ever-evolving field.
+              </p>
               Feel free to explore my portfolio to see some of the projects I've
               worked on!
             </CustomDescription>
 
             <CustomTitle>CURRENTLY</CustomTitle>
             <CustomDescription>
-              Currently, I'm working at SLK Software as an Software Engineer. In
-              here we build and provide services to various but primarily
-              Manufacturing and Supply Chain industry clients.
+              Currently, I'm working as a React Web Developer at Sonny's Direct
+              India Pvt. Ltd., a technology-driven organization serving the
+              global car wash industry. Sonny's is a leading provider of car
+              wash equipment, systems, and related solutions, with a presence
+              across the United States and international markets.
+              <p>
+                {" "}
+                As part of the development team, I work on web applications and
+                modules that support the company's business operations, using
+                technologies such as React.js, JavaScript, and MUI. My work has
+                included contributing to projects such as Single Sign-On (SSO),
+                a Short URL module, and CRM applications.
+              </p>
             </CustomDescription>
 
-            <CustomTitle>SOME HISTORY</CustomTitle>
+            <CustomTitle>MY JOURNEY ⭐</CustomTitle>
             <CustomDescription>
               <List marker="disc">
-                <ListItem>
-                  My Father is a teacher and mother homemaker and live in
-                  Gadhinglaj, Maharashtra, India.
+                <ListItem >
+                  I grew up in Gadhinglaj, Maharashtra, where my father is a
+                  teacher and my mother is a homemaker.
                 </ListItem>
                 <ListItem>
                   I completed my SSC and HSC study in the Science stream from
@@ -98,52 +111,48 @@ function About(props) {
                   Kolhapur.
                 </ListItem>
                 <ListItem>
-                  At 22, I graduated and started my career with SLK Software.
+                  After graduating, I began my professional journey as a
+                  Software Engineer at SLK Software, marking my transition from
+                  Mechanical Engineering into software development.
+                </ListItem>
+                <ListItem>
+                  In August 2025, I joined Sonny's Direct India Pvt. Ltd. as a
+                  React Web Developer, where I continue to build web
+                  applications and grow as a software developer.
                 </ListItem>
               </List>
             </CustomDescription>
 
-            <CustomTitle>I LIKE</CustomTitle>
+            <CustomTitle>BEYOND CODE ⭐</CustomTitle>
             <CustomDescription>
               <List marker="disc">
                 <ListItem>Playing video games</ListItem>
-                <ListItem>Watching Series</ListItem>
-                <ListItem>Driving</ListItem>
+                <ListItem>Watching TV Series</ListItem>
+                <ListItem>Going on long drives</ListItem>
                 <ListItem>Watching movies (offcourse Marvel)</ListItem>
               </List>
             </CustomDescription>
 
-            {/* <CustomTitle>TRAVEL / GEOGRAPHY</CustomTitle>
-            <CustomDescription>
-              <List marker="disc">
-                <ListItem>Item 1</ListItem>
-                <ListItem>Item 2</ListItem>
-                <ListItem>Item 3</ListItem>
-                <ListItem>Item 4</ListItem>
-                <ListItem>Item 5</ListItem>
-              </List>
-            </CustomDescription> */}
-
-            <CustomTitle>FUN FACTS</CustomTitle>
+            <CustomTitle>A FEW THINGS ABOUT ME ⭐</CustomTitle>
             <CustomDescription>
               <List marker="disc">
                 <ListItem>
                   Mechanical Engineer Turned Software Developer
                 </ListItem>
-                <ListItem>Time Enthusiast</ListItem>
-                <ListItem>Mindful of Details</ListItem>
+                <ListItem>I'm fascinated by time and how we spend it</ListItem>
+                <ListItem>I pay attention to the little details</ListItem>
               </List>
             </CustomDescription>
 
-            <CustomTitle>I DREAM OF</CustomTitle>
+            <CustomTitle>BEYOND THE HORIZON ⭐</CustomTitle>
             <CustomDescription>
               <List marker="disc">
-                <ListItem>Travelling space sometime</ListItem>
+                <ListItem>Travelling to space someday</ListItem>
+                <ListItem>Exploring new places and cultures</ListItem>
+                <ListItem>Becoming a little better every day</ListItem>
                 <ListItem>
-                  Spending leisure time just chillin and scroliing social-media
+                  Revisiting places that hold nostalgic memories
                 </ListItem>
-                <ListItem>Doing better everyday</ListItem>
-                <ListItem>Visiting my old nosatalgic places</ListItem>
               </List>
             </CustomDescription>
           </Box>
